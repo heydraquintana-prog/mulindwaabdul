@@ -1,22 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Custom Link Button</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Inheritance Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .button:hover {
+            background-color: #005ea6;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        code {
+            background: #eee;
+            padding: 2px 5px;
+        }
+    </style>
 </head>
 <body>
 
-<input type="text" id="myLink"
-       value="https://heydraquintana-prog.github.io/mulindwaabdul/"
-       style="width:400px; padding:10px;">
+<div class="container">
+    <h1>Shape Inheritance Project</h1>
 
-<button onclick="goToLink()">Open Website</button>
+    <p>
+        This repository contains a Java Object-Oriented Programming project
+        developed using NetBeans.
+    </p>
 
-<script>
-function goToLink() {
-    let link = document.getElementById("myLink").value;
-    window.location.href = link;
-}
-</script>
+    <h2>Project Features</h2>
+    <ul>
+        <li>Abstract Class (Shape)</li>
+        <li>Inheritance</li>
+        <li>Polymorphism</li>
+        <li>Method Overriding</li>
+        <li>Custom Exceptions</li>
+        <li>Dynamic Binding</li>
+    </ul>
+
+    <h2>Classes Included</h2>
+    <ul>
+        <li>Shape.java</li>
+        <li>Circle.java</li>
+        <li>Rectangle.java</li>
+        <li>Triangle.java</li>
+        <li>InvalidShapeException.java</li>
+        <li>ShapeDriver.java</li>
+    </ul>
+
+    <h2>Source Code</h2>
+
+    <p>
+        Click the button below to access the complete NetBeans source code repository.
+    </p>
+
+    <a class="button"
+       href="https://github.com/callimus/shapes"
+       target="_blank">
+       View Source Code
+    </a>
+
+</div>
 
 </body>
 </html>
